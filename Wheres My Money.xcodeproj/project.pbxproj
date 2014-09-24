@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2059CE8F19CA76450066B4C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2059CE8E19CA76450066B4C1 /* Main.storyboard */; };
+		2060844E19CD22D000EC1526 /* WMMAddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2060844D19CD22D000EC1526 /* WMMAddToDoItemViewController.m */; };
+		2060845119CD23F800EC1526 /* WMMToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2060845019CD23F800EC1526 /* WMMToDoListTableViewController.m */; };
 		20F816DA19BB7AC8000BC3B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F816D919BB7AC8000BC3B6 /* Foundation.framework */; };
 		20F816DC19BB7AC8000BC3B6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F816DB19BB7AC8000BC3B6 /* CoreGraphics.framework */; };
 		20F816DE19BB7AC8000BC3B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F816DD19BB7AC8000BC3B6 /* UIKit.framework */; };
@@ -32,6 +35,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2059CE8E19CA76450066B4C1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2060844C19CD22D000EC1526 /* WMMAddToDoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMMAddToDoItemViewController.h; sourceTree = "<group>"; };
+		2060844D19CD22D000EC1526 /* WMMAddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMMAddToDoItemViewController.m; sourceTree = "<group>"; };
+		2060844F19CD23F800EC1526 /* WMMToDoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMMToDoListTableViewController.h; sourceTree = "<group>"; };
+		2060845019CD23F800EC1526 /* WMMToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMMToDoListTableViewController.m; sourceTree = "<group>"; };
 		20F816D619BB7AC8000BC3B6 /* Wheres My Money.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wheres My Money.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F816D919BB7AC8000BC3B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		20F816DB19BB7AC8000BC3B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -77,12 +85,19 @@
 		20F816CD19BB7AC8000BC3B6 = {
 			isa = PBXGroup;
 			children = (
+				2059CE8E19CA76450066B4C1 /* Main.storyboard */,
+				2060844F19CD23F800EC1526 /* WMMToDoListTableViewController.h */,
+				2060845019CD23F800EC1526 /* WMMToDoListTableViewController.m */,
+				2060844C19CD22D000EC1526 /* WMMAddToDoItemViewController.h */,
+				2060844D19CD22D000EC1526 /* WMMAddToDoItemViewController.m */,
 				20F816DF19BB7AC8000BC3B6 /* Wheres My Money */,
 				20F816F819BB7AC8000BC3B6 /* Wheres My MoneyTests */,
 				20F816D819BB7AC8000BC3B6 /* Frameworks */,
 				20F816D719BB7AC8000BC3B6 /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		20F816D719BB7AC8000BC3B6 /* Products */ = {
 			isa = PBXGroup;
@@ -220,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2059CE8F19CA76450066B4C1 /* Main.storyboard in Resources */,
 				20F816E419BB7AC8000BC3B6 /* InfoPlist.strings in Resources */,
 				20F816EC19BB7AC8000BC3B6 /* Images.xcassets in Resources */,
 			);
@@ -241,6 +257,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				20F816EA19BB7AC8000BC3B6 /* WMMAppDelegate.m in Sources */,
+				2060844E19CD22D000EC1526 /* WMMAddToDoItemViewController.m in Sources */,
+				2060845119CD23F800EC1526 /* WMMToDoListTableViewController.m in Sources */,
 				20F816E619BB7AC8000BC3B6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,6 +458,7 @@
 				20F8170419BB7AC8000BC3B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20F8170519BB7AC8000BC3B6 /* Build configuration list for PBXNativeTarget "Wheres My MoneyTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +467,7 @@
 				20F8170719BB7AC8000BC3B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
